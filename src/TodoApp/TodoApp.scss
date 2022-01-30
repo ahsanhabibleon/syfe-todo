@@ -1,0 +1,30 @@
+:root {
+  --white-rgb: 255, 255, 255;
+  --black-rgb: 0, 0, 0;
+  --white: rgba(var(--white-rgb), 1);
+  --black: rgba(var(--black-rgb), 1);
+  --text-default: #333;
+  --color-grey: #ccc;
+  --color-primary: #098ceb;
+  --accent-color: #0673c3;
+  --color-danger: rgb(228, 80, 80);
+  --color-danger-hover: rgb(191 16 16);
+  --radius: 5px;
+}
+body {
+  margin: 0;
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: var(--text-default);
+}
+.todo {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
